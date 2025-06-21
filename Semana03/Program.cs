@@ -6,11 +6,11 @@ class Program
     {
         Estudiante estudiante = new Estudiante();
 
-        Console.WriteLine("Ingrese el ID del estudiante:");
+        Console.WriteLine("Ingrese el numero cedula del estudiante:");
         string? inputId = Console.ReadLine();
         if (!int.TryParse(inputId, out int id))
         {
-            Console.WriteLine("ID inválido. Debe ser un número.");
+            Console.WriteLine("cedula inválido. Debe ser un número.");
             return;
         }
         estudiante.Id = id;
