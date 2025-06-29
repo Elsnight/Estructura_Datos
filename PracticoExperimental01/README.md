@@ -1,5 +1,10 @@
 # Sistema de Gestión de Agenda Clínica
 
+Uso del agente de IA
+Agente utilizado: Cloude
+Porcentaje del código generado por el agente: ~30%
+Descripción: Se utilizó el agente de IA para estructurar el proyecto, Y Documentacion.
+
 ## Descripción
 
 Sistema de gestión de turnos para una clínica médica desarrollado en C#. Permite agendar, consultar y cancelar turnos médicos utilizando estructuras de datos básicas (arrays).
